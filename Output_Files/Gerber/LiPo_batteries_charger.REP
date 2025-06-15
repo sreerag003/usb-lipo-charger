@@ -1,0 +1,235 @@
+*************************************************************
+FileName = LiPo_batteries_charger.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Paste
+      File : LiPo_batteries_charger.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : LiPo_batteries_charger.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : LiPo_batteries_charger.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : LiPo_batteries_charger.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : LiPo_batteries_charger.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : LiPo_batteries_charger.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : LiPo_batteries_charger.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D17
+    D45
+    D51
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : LiPo_batteries_charger.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D17
+    D18
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D45
+    D51
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : LiPo_batteries_charger.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D16
+    D63
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : LiPo_batteries_charger.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : LiPo_batteries_charger.GM
+
+
+Used DCodes :
+    D64
+*************************************************************
+

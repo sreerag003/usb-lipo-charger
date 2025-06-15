@@ -1,0 +1,25 @@
+# Ignore Altium temporary files
+*.Dat
+*.IntLib
+*.OutJobPreview
+*.PrjPCBStructure
+*.SchDocPreview
+*.PCBDOCPreview
+*.tmp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore backup and log files
+*.log
+*.tmp
+*.old
+*.backup
+*.~*
+
+# Ignore Git metadata except for the repo
+.git/

@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [LiPo_batteries_charger.PrjPcb]
+   Generated File[Bill of Materials-LiPo_batteries_charger.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 09:14:27 On 15-06-2025

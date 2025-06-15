@@ -1,0 +1,420 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 10 31.496 25.654 0 N U1 Charge_Management_Controller ;0=1,1=0.0000,5=0
+PRP Code_IPC 'SOT23-5'
+PRP DatasheetVersion 'revB, Sep-2007'
+PRP Manufacturer 'Microchip'
+PRP Manufacturer_Part_Number 'MCP73811T-420I/OT'
+PRP PackageDescription '5-Lead Plastic Small Outline Transistor (OT) [SOT-23]'
+PRP PackageReference 'SOT-23-OT5'
+PRP PackageVersion 'revBB, Aug-2009'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'MCP73811T-420I/OTCT-ND'
+TOP 0 30.29599986 26.60400064 270 N 4 1 1
+TOP 1 30.29599986 25.654 270 N 10 11 2
+TOP 2 30.29599986 24.7040019 270 N 8 4 3
+TOP 3 32.69600014 24.7040019 270 N 9 6 4
+TOP 4 32.69600014 26.60400064 270 N 3 0 5
+#
+# CMP 1
+CMP 9 28.321 51.054 180 N SJ1 SJUMPER3POS ;0=1,1=0.0000,5=0
+PRP Case/Package ''
+PRP Component_Type 'Miscellaneous'
+PRP Manufacturer 'N/A'
+PRP Manufacturer_Part_Number 'N/A'
+PRP Max_Operating_Temperature ''
+PRP Min_Operating_Temperature ''
+PRP Mounting_Technology ''
+PRP Pins '3'
+PRP RoHS_Compliant ''
+TOP 0 29.21 51.054 180 N 2 1 1
+TOP 1 28.321 51.054 180 N 3 2 2
+TOP 2 27.432 51.054 180 N 1 0 3
+#
+# CMP 2
+CMP 8 25.781 46.609 90 N R4 10k ;0=1,1=0.0000,5=0
+PRP Manufacturer 'Panasonic'
+PRP Manufacturer_Part_Number 'ERJ-6ENF1002V'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'P10.0KCCT-ND'
+TOP 0 25.781 47.58399932 0 N 1 1 1
+TOP 1 25.781 45.63399814 0 N 10 5 2
+#
+# CMP 3
+CMP 8 30.734 46.609 90 N R3 2k ;0=1,1=0.0000,5=0
+PRP Manufacturer 'Panasonic'
+PRP Manufacturer_Part_Number 'ERJ-6GEYJ202V'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'P2.0KACT-ND'
+TOP 0 30.734 47.58399932 0 N 2 0 1
+TOP 1 30.734 45.63399814 0 N 10 3 2
+#
+# CMP 4
+CMP 11 34.671 38.0930023 90 N R2 PROG ;0=2,1=0.0000,5=0
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.vishay.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.vishay.com/docs/28729/28729.pdf'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.vishay.com/docs/28729/28729.pdf'
+PRP DatasheetVersion 'Jun-13'
+PRP Manufacturer 'Vishay Semiconductor'
+PRP Manufacturer_Part_Number 'PR02000206202JR500'
+PRP Mounting_Technology 'Through Hole'
+PRP PackageDescription '2-Pin Axial Lead, Body 10 x 3.9 mm'
+PRP Packing 'Ammo Pack'
+PRP PartNumber 'PR02000206202JA100'
+PRP Power '2 W'
+PRP Resistance '62 KOhm'
+PRP RoHS 'TRUE'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'PPC62KW-2CT-ND'
+PRP Temperature_Coefficient '+/-250 ppm/degC'
+PRP Tolerance '+/-5%'
+TOP 0 34.671 45.593 90 N 10 2 1
+TOP 1 34.671 30.59300206 90 N 3 1 2
+#
+# CMP 5
+CMP 7 33.655 16.61199624 270 N R1 330 ;0=1,1=0.0000,5=0
+PRP Manufacturer 'Vishay'
+PRP Manufacturer_Part_Number 'CRCW0805330RFKEA'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '541-330CCT-ND'
+TOP 0 33.655 15.68699682 180 N 5 0 1
+TOP 1 33.655 17.53699566 180 N 4 0 2
+#
+# CMP 6
+CMP 5 53.975 53.594 270 N MHNP4 Mounting_Hole_Non-Plated_3.2mm ;0=2,1=0.0000,5=0
+PRP Manufacturer 'N/A'
+PRP Manufacturer_Part_Number 'N/A'
+TOP 0 53.975 53.594 270 N 0 8 empty-1
+#
+# CMP 7
+CMP 5 2.54 53.594 270 N MHNP3 Mounting_Hole_Non-Plated_3.2mm ;0=2,1=0.0000,5=0
+PRP Manufacturer 'N/A'
+PRP Manufacturer_Part_Number 'N/A'
+TOP 0 2.54 53.594 270 N 0 6 empty-1
+#
+# CMP 8
+CMP 5 53.975 2.667 270 N MHNP2 Mounting_Hole_Non-Plated_3.2mm ;0=2,1=0.0000,5=0
+PRP Manufacturer 'N/A'
+PRP Manufacturer_Part_Number 'N/A'
+TOP 0 53.975 2.667 270 N 0 5 empty-1
+#
+# CMP 9
+CMP 5 2.794 2.667 270 N MHNP1 Mounting_Hole_Non-Plated_3.2mm ;0=2,1=0.0000,5=0
+PRP Manufacturer 'N/A'
+PRP Manufacturer_Part_Number 'N/A'
+TOP 0 2.794 2.667 270 N 0 2 empty-1
+#
+# CMP 10
+CMP 12 36.195 10.033 180 N LED2 RED ;0=1,1=0.0000,5=0
+PRP Automotive_Qualification_Standard 'AEC-Q100'
+PRP Bulb_Size '1.6mmx0.8mm'
+PRP Datasheet_URL 'https://datasheet.ciiva.com/5798/1698881-5798337.pdf'
+PRP Datasheet_Version 'Rev. 1.7, 02/2011'
+PRP Forward_Current_If '2mA'
+PRP Forward_Voltage '1.8V'
+PRP LED_Colour 'Red'
+PRP LED_Mounting 'SMD'
+PRP Lens_Shape 'Rectangular'
+PRP Luminous_Intensity '4mcd'
+PRP Manufacturer 'Vishay'
+PRP Manufacturer_Part_Number 'TLMS1000-GS08'
+PRP Manufacturer_URL 'http://www.vishay.com/'
+PRP Mounting_Technology 'SurfaceMount'
+PRP MSL 'MSL2-1year'
+PRP Package_Description '2-Pin Surface Mount Device, Body 1.6 x 0.8 mm'
+PRP Package_Reference 'TLMS1000'
+PRP Packaging 'CutTape'
+PRP Product_Range '-'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'TLMS1000-GS08CT-ND'
+PRP SVHC 'ToBeAdvised'
+PRP Viewing_Angle '80°'
+PRP Wavelength_Typ '636nm'
+TOP 0 36.91999982 10.033 180 N 9 4 1
+TOP 1 35.47000018 10.033 180 N 5 1 2
+#
+# CMP 11
+CMP 12 36.195 12.446 180 N LED1 RED ;0=1,1=0.0000,5=0
+PRP Automotive_Qualification_Standard 'AEC-Q100'
+PRP Bulb_Size '1.6mmx0.8mm'
+PRP Datasheet_URL 'https://datasheet.ciiva.com/5798/1698881-5798337.pdf'
+PRP Datasheet_Version 'Rev. 1.7, 02/2011'
+PRP Forward_Current_If '2mA'
+PRP Forward_Voltage '1.8V'
+PRP LED_Colour 'Red'
+PRP LED_Mounting 'SMD'
+PRP Lens_Shape 'Rectangular'
+PRP Luminous_Intensity '4mcd'
+PRP Manufacturer 'Vishay'
+PRP Manufacturer_Part_Number 'TLMS1000-GS08'
+PRP Manufacturer_URL 'http://www.vishay.com/'
+PRP Mounting_Technology 'SurfaceMount'
+PRP MSL 'MSL2-1year'
+PRP Package_Description '2-Pin Surface Mount Device, Body 1.6 x 0.8 mm'
+PRP Package_Reference 'TLMS1000'
+PRP Packaging 'CutTape'
+PRP Product_Range '-'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'TLMS1000-GS08CT-ND'
+PRP SVHC 'ToBeAdvised'
+PRP Viewing_Angle '80°'
+PRP Wavelength_Typ '636nm'
+TOP 0 36.91999982 12.446 180 N 9 5 1
+TOP 1 35.47000018 12.446 180 N 5 2 2
+#
+# CMP 12
+CMP 3 49.09000088 35.814 270 N J6 RASM722PTR13X ;0=1,1=0.0000,5=0
+PRP Case/Package 'SMD/SMT'
+PRP Color 'Black'
+PRP Connector_Type 'Jack'
+PRP Contact_Material 'Copper Alloy'
+PRP Contact_Plating 'Tin'
+PRP Current_Rating '5A'
+PRP Gender 'Male'
+PRP Housing_Color 'Black'
+PRP Housing_Material 'Thermoplastic'
+PRP Manufacturer 'Switchcraft'
+PRP Manufacturer_Part_Number 'RASM722PTR13X'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '120'
+PRP Shielding 'Unshielded'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'SC2028-1-ND'
+PRP Termination 'Solder'
+TOP 0 40.4400004 36.57400102 270 N 10 6 1
+TOP 1 49.5799999 29.38400016 270 N 6 1 2
+TOP 2 49.5799999 42.67399898 270 N 10 7 3
+TOP 3 53.34 35.814 270 N 0 7 empty-1
+#
+# CMP 13
+CMP 1 25.781 9.779 0 N J5 2_POS_VERT_HEADER_0.100" ;0=2,1=0.0000,5=0
+PRP Built_By 'EMA_UL_Team'
+PRP Copyright 'Copyright (C) 2018 Accelerated Designs. All rights reserved'
+PRP Manufacturer 'Amphenol ICC (FCI)'
+PRP Manufacturer_Part_Number '67997-402HLF'
+PRP RefDes 'RefDes'
+PRP SourceLibrary 'Amphenol_2013-08-06_Bergstik_2Row_67997'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '609-5502-ND'
+TOP 0 25.781 9.779 0 N 10 10 1
+TOP 1 25.781 12.319 0 N 8 1 2
+#
+# CMP 14
+CMP 1 25.781 34.544 0 N J4 2_POS_VERT_HEADER_0.100" ;0=2,1=0.0000,5=0
+PRP Built_By 'EMA_UL_Team'
+PRP Copyright 'Copyright (C) 2018 Accelerated Designs. All rights reserved'
+PRP Manufacturer 'Amphenol ICC (FCI)'
+PRP Manufacturer_Part_Number '67997-402HLF'
+PRP RefDes 'RefDes'
+PRP SourceLibrary 'Amphenol_2013-08-06_Bergstik_2Row_67997'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 '609-5502-ND'
+TOP 0 25.781 34.544 0 N 10 13 1
+TOP 1 25.781 37.084 0 N 8 2 2
+#
+# CMP 15
+CMP 0 13.843 22.86 90 N J3 CONN_HEADER_R/A_2POS_5.08MM ;0=2,1=0.0000,5=0
+PRP ComponentLink1Description 'Product URL'
+PRP ComponentLink1URL 'https://www.te.com/usa-en/product-1-179276-2.html?te_bu=Cor&te_type=other&te_campaign=oct_glo_manufacturer&elqCampaignId=26136'
+PRP Manufacturer 'TE Connectivity AMP Connectors'
+PRP Manufacturer_Part_Number '1-179276-2'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'A29545-ND'
+TOP 0 13.843 22.86 90 N 10 14 1
+TOP 1 13.843 10.16 90 N 8 6 2
+TOP 2 21.463 19.05 90 N 0 1 empty-1
+TOP 3 21.463 13.97 90 N 0 4 empty-2
+#
+# CMP 16
+CMP 4 55.0450004 13.79149896 270 N J2 47346-0001 ;0=1,1=2.9400,5=0
+PRP Body_Orientation 'RightAngle'
+PRP Color 'Black'
+PRP Contact_Material 'CopperAlloy'
+PRP Contact_Plating 'GoldOverPalladiumNickelOverNickel'
+PRP Datasheet_URL 'https://datasheet.ciiva.com/30075/304740473460001-io-nectors-30075527.pdf'
+PRP Datasheet_Version 'Dec-13'
+PRP Dimension '7.8x5.43x2.94mm'
+PRP Gender 'RCP'
+PRP Housing_Material 'LiquidCrystalPolymer'
+PRP Manufacturer 'Molex'
+PRP Manufacturer_Part_Number '47346-0001'
+PRP Manufacturer_URL 'http://www.molex.com/'
+PRP Maximum_Current_Rating '1.8/ContactA'
+PRP Maximum_Voltage_Rating '30VAC'
+PRP Mounting 'SurfaceMount'
+PRP Number_of_Contacts '5'
+PRP Number_of_Ports '1'
+PRP Number_of_Terminals '5'
+PRP Operating_Temperature '-30to85C'
+PRP Packaging 'EmbossedTapeandReel'
+PRP Pitch '0.65mm'
+PRP RoHS 'Yes'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'WM17141CT-ND'
+PRP Termination_Method 'Solder'
+PRP Type 'MicroUSBTypeB'
+TOP 0 52.58500024 12.49149902 270 N 7 0 1
+TOP 1 52.58500024 13.14149772 270 N 0 11 2
+TOP 2 52.58500024 13.79149896 270 N 0 12 3
+TOP 3 52.58500024 14.4415002 270 N 0 9 4
+TOP 4 52.58500024 15.0914989 270 N 10 9 5
+TOP 5 52.94499952 11.32899944 270 N 0 10 6
+TOP 6 52.94499952 16.25399848 270 N 0 13 7
+TOP 7 55.245 10.8789978 270 N 0 16 8
+TOP 8 55.245 12.954 270 N 0 14 9
+TOP 9 55.245 14.62899792 270 N 0 15 10
+TOP 10 55.245 16.70400012 270 N 0 17 11
+#
+# CMP 17
+CMP 0 13.97 46.355 90 N J1 CONN_HEADER_R/A_2POS_5.08MM ;0=2,1=0.0000,5=0
+PRP ComponentLink1Description 'Product URL'
+PRP ComponentLink1URL 'https://www.te.com/usa-en/product-1-179276-2.html?te_bu=Cor&te_type=other&te_campaign=oct_glo_manufacturer&elqCampaignId=26136'
+PRP Manufacturer 'TE Connectivity AMP Connectors'
+PRP Manufacturer_Part_Number '1-179276-2'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'A29545-ND'
+TOP 0 13.97 46.355 90 N 10 4 1
+TOP 1 13.97 33.655 90 N 8 3 2
+TOP 2 21.59 42.545 90 N 0 0 empty-1
+TOP 3 21.59 37.465 90 N 0 3 empty-2
+#
+# CMP 18
+CMP 6 44.831 18.923 0 N D2 40V,_1A ;0=1,1=0.0000,5=0
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.onsemi.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.onsemi.cn/pub_link/Collateral/MBRA140T3-D.PDF'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.onsemi.com/pub_link/Collateral/403D-02.PDF'
+PRP Configuration 'Single'
+PRP DatasheetVersion 'Rev. 10'
+PRP IFSM_Max_(A) '30'
+PRP Manufacturer 'ON Semiconductor'
+PRP Manufacturer_Part_Number 'MBRA140T3G'
+PRP Mounting_Technology 'Surface Mount'
+PRP PackageDescription '2-Pin Small Molded Package, J-Bend Lead, Body 2.605 x 4.315 mm'
+PRP PackageReference 'SMA-2-403D-02'
+PRP PackageVersion 'Rev. G, 07/2012'
+PRP Packing 'Tape and Reel'
+PRP PartNumber 'MBRA140T3G'
+PRP RoHS 'TRUE'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'MBRA140T3GOSCT-ND'
+TOP 0 42.83100146 18.923 270 N 9 2 1
+TOP 1 46.83100108 18.923 270 N 6 2 2
+#
+# CMP 19
+CMP 6 44.704 12.573 180 N D1 40V,_1A ;0=1,1=0.0000,5=0
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.onsemi.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.onsemi.cn/pub_link/Collateral/MBRA140T3-D.PDF'
+PRP ComponentLink3Description 'Package Specification'
+PRP ComponentLink3URL 'http://www.onsemi.com/pub_link/Collateral/403D-02.PDF'
+PRP Configuration 'Single'
+PRP DatasheetVersion 'Rev. 10'
+PRP IFSM_Max_(A) '30'
+PRP Manufacturer 'ON Semiconductor'
+PRP Manufacturer_Part_Number 'MBRA140T3G'
+PRP Mounting_Technology 'Surface Mount'
+PRP PackageDescription '2-Pin Small Molded Package, J-Bend Lead, Body 2.605 x 4.315 mm'
+PRP PackageReference 'SMA-2-403D-02'
+PRP PackageVersion 'Rev. G, 07/2012'
+PRP Packing 'Tape and Reel'
+PRP PartNumber 'MBRA140T3G'
+PRP RoHS 'TRUE'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_Part_Number_1 'MBRA140T3GOSCT-ND'
+TOP 0 46.70399854 12.573 90 N 7 1 1
+TOP 1 42.70399892 12.573 90 N 9 1 2
+#
+# CMP 20
+CMP 2 30.099 10.795 90 N C2 4.7uF ;0=1,1=0.0000,5=0
+PRP Automotive 'No'
+PRP Capacitance '4.7 uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.yageo.com/documents/recent/UPY-GPHC_Y5V_6.3V-to-50V_8.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 4.7UF 6.3V X7R 0805'
+PRP Footprint_Url 'http://www.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf'
+PRP Height '0.95mm'
+PRP Ipc_Land_Pattern_Name 'CAPC200125X85'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Yageo'
+PRP Manufacturer_Part_Number 'CC0805KKX7R5BB475'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF 6.3V X7R 10%'
+PRP Octopart 'https://octopart.com/cc0805kkx7r5bb475-yageo-27548069'
+PRP Package 'CC0805-0.85'
+PRP RoHS 'TRUE'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_2 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-3419-1-ND'
+PRP Supplier_Part_Number_2 '311-3419-2-ND'
+PRP Temperature '-30°C to +85°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-30°C'
+PRP Tolerance '0.1'
+PRP Value '4.7 uF'
+PRP Voltage_Rating '6.3 V'
+TOP 0 30.099 11.71999942 90 N 8 5 1
+TOP 1 30.099 9.87000058 90 N 10 12 2
+#
+# CMP 21
+CMP 2 37.338 16.637 270 N C1 4.7uF ;0=1,1=0.0000,5=0
+PRP Automotive 'No'
+PRP Capacitance '4.7 uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.yageo.com/documents/recent/UPY-GPHC_Y5V_6.3V-to-50V_8.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 4.7UF 6.3V X7R 0805'
+PRP Footprint_Url 'http://www.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf'
+PRP Height '0.95mm'
+PRP Ipc_Land_Pattern_Name 'CAPC200125X85'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Yageo'
+PRP Manufacturer_Part_Number 'CC0805KKX7R5BB475'
+PRP Material 'Ceramic'
+PRP Mouser_Description 'Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF 6.3V X7R 10%'
+PRP Octopart 'https://octopart.com/cc0805kkx7r5bb475-yageo-27548069'
+PRP Package 'CC0805-0.85'
+PRP RoHS 'TRUE'
+PRP Supplier_1 'Digi-Key'
+PRP Supplier_2 'Digi-Key'
+PRP Supplier_Part_Number_1 '311-3419-1-ND'
+PRP Supplier_Part_Number_2 '311-3419-2-ND'
+PRP Temperature '-30°C to +85°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-30°C'
+PRP Tolerance '0.1'
+PRP Value '4.7 uF'
+PRP Voltage_Rating '6.3 V'
+TOP 0 37.338 15.71200058 270 N 9 3 1
+TOP 1 37.338 17.56199942 270 N 10 8 2
+#
